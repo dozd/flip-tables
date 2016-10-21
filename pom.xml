@@ -9,9 +9,9 @@
     <version>7</version>
   </parent>
 
-  <groupId>com.jakewharton.fliptables</groupId>
+  <groupId>eu.dozd</groupId>
   <artifactId>fliptables</artifactId>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.0.3</version>
 
   <name>Flip Tables</name>
   <description>Because pretty-printing text tables in Java should be easy.</description>
@@ -21,6 +21,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <distributionManagement>
+    <repository>
+      <id>bintray-dozd-bitrich</id>
+      <name>dozd-bitrich</name>
+      <url>https://api.bintray.com/maven/dozd/bitrich/flip-tables/;publish=1</url>
+    </repository>
+    <snapshotRepository>
+      <id>bintray-dozd-bitrich</id>
+      <name>dozd-bitrich</name>
+      <url>https://api.bintray.com/maven/dozd/bitrich/flip-tables/;publish=1</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <scm>
     <url>http://github.com/JakeWharton/flip-tables/</url>
